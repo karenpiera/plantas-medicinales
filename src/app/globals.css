@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 body {
-  @apply bg-white;
-  color: gray-800;
+  background-image: url("../../public/pant.jpg"); /* Reemplaza la ruta con la ubicación real de tu imagen */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+  background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+  background-attachment: fixed; /* Fija la imagen de fondo para que no se desplace con el contenido */
 }
